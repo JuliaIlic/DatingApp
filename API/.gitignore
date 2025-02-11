@@ -43,6 +43,7 @@ dlldata.c
 
 # VS Code directories
 .vscode/
+.vs/
 
 # Windows image file caches
 Thumbs.db
