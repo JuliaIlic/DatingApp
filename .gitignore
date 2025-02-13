@@ -65,4 +65,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#Node
+/node_modules
+
 # End of .gitignore
