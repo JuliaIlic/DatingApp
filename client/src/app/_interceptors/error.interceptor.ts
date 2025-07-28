@@ -20,11 +20,6 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
                   modalStateErrors.push(error.error.errors[key]);
                 }
               }
-            //   throw modalStateErrors.flat();
-            // }else {
-            //   toastr.error(error.error.errors)
-            // }
-            // break;
               router.navigateByUrl('/errors');
             } else {
               toastr.error(error.error?.message || 'Bad Request');
